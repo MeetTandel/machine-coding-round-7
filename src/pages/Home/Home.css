@@ -1,0 +1,57 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__container > h1 {
+  color: #E3E3E3;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.home__container > h3 {
+  color: #636CFE;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.data__container {
+  display: flex;
+  align-items: center;
+}
+
+.data__container > div {
+  margin: 20px;
+}
+
+.image__container {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.image__container img {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.image__container .content {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  color: white
+}
+
+.content p {
+  margin: 0
+}
+
+
