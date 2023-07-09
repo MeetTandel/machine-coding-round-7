@@ -20,7 +20,7 @@ export const LocationDetails = () => {
           <DataCard
             key={item.id}
             item={item}
-            path={`/${country}/${location}/${item.name}`}
+            path={`/${country}/${location}/${item.name.split(" ").join("-")}`}
           />
         ))}
       </div>
